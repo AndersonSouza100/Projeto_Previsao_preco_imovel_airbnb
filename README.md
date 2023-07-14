@@ -16,6 +16,17 @@ Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a 
 
 As bases de dados foram retiradas do site kaggle: https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro. A IDE usada para desenvolver as linhas de código foi o Jupyter. O projeto em si já é bem autoexplicativo.
 
-Antes de você rodar este projeto no seu computador, é importante entrar na pasta 'dataset' e extrair todos os arquivos , pois, eles são a base dados original e sem tratamento do projeto. Extraia-os para a pasta 'dataset'
+Antes de você rodar este projeto no seu computador, é importante entrar na pasta 'dataset' e extrair todos os arquivos , pois, eles são a base dados original e sem tratamento do projeto. Extraia-os para a pasta 'dataset'. 
+A seguir , falarei sobre cada arquivo contido neste trabalho:
 
 
+Projeto_Previsao_preco_imovel_airbnb.ipynb:  esse é o arquivo principal do projeto, onde nele é realizado todo trabalho de Ciência de Dados. Está dividido em 8 passos:
+
+      1 - Entendimento da área.
+      2 - Entendimento do desafio.
+      3 - Extração/Obtenção de Dados.
+      4 - Ajustes dos dados (Limpeza dos Dados).
+      5 - Análise Exploratória e Tratamento de Outliers.
+      6 - Modelagem + Algoritmos.
+      7 - Interpretação dos Resultados.
+      8 - Deploy do Projeto.
