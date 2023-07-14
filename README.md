@@ -14,5 +14,8 @@ Construir um modelo de previsão de preço que permita uma pessoa comum que poss
 Ou ainda, para o locador comum, dado o imóvel que ele está buscando, ajudar a saber se aquele imóvel está com preço atrativo (abaixo da média para imóveis com as mesmas características) ou não.
 
 
-As bases de dados foram retiradas do site kaggle: https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro.
+As bases de dados foram retiradas do site kaggle: https://www.kaggle.com/allanbruno/airbnb-rio-de-janeiro. A IDE usada para desenvolver as linhas de código foi o Jupyter. O projeto em si já é bem autoexplicativo.
+
+Antes de você rodar este projeto no seu computador, é importante entrar na pasta 'dataset' e extrair todos os arquivos , pois, eles são a base dados original e sem tratamento do projeto. Extraia-os para a pasta 'dataset'
+
 
