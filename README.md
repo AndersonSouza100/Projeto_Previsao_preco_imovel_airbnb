@@ -20,7 +20,7 @@ Antes de você rodar este projeto no seu computador, é importante entrar na pas
 A seguir , falarei sobre cada arquivo contido neste trabalho:
 
 
-Projeto_Previsao_preco_imovel_airbnb.ipynb:  esse é o arquivo principal do projeto, onde nele é realizado todo trabalho de Ciência de Dados. Está dividido em 8 passos:
+1 - Projeto_Previsao_preco_imovel_airbnb.ipynb:  esse é o arquivo principal do projeto, onde nele é realizado todo trabalho de Ciência de Dados. Está dividido em 8 passos:
 
       1 - Entendimento da área.
       2 - Entendimento do desafio.
@@ -30,3 +30,18 @@ Projeto_Previsao_preco_imovel_airbnb.ipynb:  esse é o arquivo principal do proj
       6 - Modelagem + Algoritmos.
       7 - Interpretação dos Resultados.
       8 - Deploy do Projeto.
+Após a etapa 8, foram criados 2 arquivos : 'dados.csv' (que é nossa base de dados completa e tratada) e 'modelo.joblib' (que é o nosso modelo de inteligência artificial salvo em arquivo para facilitar sua leitura na hora do deploy). Este ultimo arquivo que eu mencionei , ele tambem está neste projeto . Basta acessar a pasta 'modelo.joblib comprimido' e extrair todos os arquivos para a propria pasta. É importante que voce coloque o arquivo 'modelo.joblib' na pasta inicial deste projeto.
+
+
+2 - DeployProjetoAirbnb.ipynb: esse é o arquivo onde gerará uma tela para que o usuário possa colocar as informações do imóvel e prever o seu preço . Esse arquivo irá ler os dois arquivos gerados na etapa 8 do Deploy.
+
+3 - DeployProjetoAirbnb.py: esse arquivo é a tela final onde o usuário irá colocar as informações do imóvel para prever o seu preço. Foi gerado pelo arquivo 2 e para que ele funcione , é necessário seguir o passo a passo:
+
+      1 - abra no seu computador o Anaconda Prompt.
+      2 - execute o comando: cd C:\Users\AndersonPC\Documents\GitHub\Projeto_Previsao_preco_imovel_airbnb 
+      Observação: no passo 2 você deve colocar o caminho exato da pasta onde está o seu projeto. No meu caso está desta forma , mas no seu estará diferente.
+      3 - execute o comando: streamlit run DeployProjetoAirbnb.py
+      4 - Abrirá uma aba no seu navegador, basta colocar as informações do imóvel e clicar no botão 'Prever valor do imóvel'.
+
+
+
